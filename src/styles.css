@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.sun-icon {
+  font-size: 50px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 4px;
+  color: rgba(71, 168, 248, 0.79);
+}
+.col-city {
+  display: block;
+  text-align: right;
+}
+.parametres {
+  font-size: 17px;
+  padding-top: 10px;
+}
+.days {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+}
+.wind-precip {
+  padding-left: 0;
+}
+.img-temp {
+  padding-right: 0;
+}
+.temp {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -32px;
+}
+.dayIcon {
+  height: 60px;
+  position: relative;
+  left: -10px;
+}
+.dayTemp {
+  font-size: 24px;
+
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+
+.weather-icon-down {
+  display: block;
+  margin-left: 10px;
+}
